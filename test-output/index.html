@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse-2117691326\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.testcases.TC_001_ValidateWebServiceOfMethods" hash-for-method="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME...)">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.testcases.TC_001_ValidateWebServiceOfMethods" hash-for-method="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.testcases.TC_001_ValidateWebServiceOfMethods" hash-for-method="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.testcases.TC_001_ValidateWebServiceOfMethods" hash-for-method="checks_APIs({RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESP...)">checks_APIs({RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESP...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.testcases.TC_001_ValidateWebServiceOfMethods" hash-for-method="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_001_ValidateWebServiceOfMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME...)">
+                  </a> <!-- checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME...) -->
+                  <span class="method-name">checks_APIs</span>
+                  <span class="parameters">({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    "name": "morpheus",
+    "job": "leader"
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=POST, RESPONSE BODY=, URL=https://reqres.in/api/users, PATH=name, PAGES=CREATE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)">
+                  </a> <!-- checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...) -->
+                  <span class="method-name">checks_APIs</span>
+                  <span class="parameters">({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Janet, HTTPMETHODS=GET, RESPONSE BODY={
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+    },
+    "ad": {
+        "company": "StatusCode Weekly",
+        "url": "http://statuscode.org/",
+        "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+    }
+}, URL=https://reqres.in/api/users/2, PATH=data.first_name, PAGES=SINGLE USER})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)">
+                  </a> <!-- checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...) -->
+                  <span class="method-name">checks_APIs</span>
+                  <span class="parameters">({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    "name": "morpheus",
+    "job": "zion resident"
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=PUT, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=name, PAGES=UPDATE USER})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checks_APIs({RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESP...)">
+                  </a> <!-- checks_APIs({RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESP...) -->
+                  <span class="method-name">checks_APIs</span>
+                  <span class="parameters">({RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=, HTTPMETHODS=DELETE, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=, PAGES=UPDATE PARTICULAR})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)">
+                  </a> <!-- checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...) -->
+                  <span class="method-name">checks_APIs</span>
+                  <span class="parameters">({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Michael, HTTPMETHODS=GET, RESPONSE BODY={
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+        }
+    ],
+    "ad": {
+        "company": "StatusCode Weekly",
+        "url": "http://statuscode.org/",
+        "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+    }
+}, URL=https://reqres.in/api/users?page=2, PATH=data[0].first_name, PAGES=LIST USERS})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse-2117691326\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_001_ValidateWebServiceOfMethods&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checks_APIs')
+data.setCell(0, 2, 'com.framework.testcases.TC_001_ValidateWebServiceOfMethods')
+data.setCell(0, 3, 10344);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checks_APIs')
+data.setCell(1, 2, 'com.framework.testcases.TC_001_ValidateWebServiceOfMethods')
+data.setCell(1, 3, 6271);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checks_APIs')
+data.setCell(2, 2, 'com.framework.testcases.TC_001_ValidateWebServiceOfMethods')
+data.setCell(2, 3, 5264);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checks_APIs')
+data.setCell(3, 2, 'com.framework.testcases.TC_001_ValidateWebServiceOfMethods')
+data.setCell(3, 3, 3419);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checks_APIs')
+data.setCell(4, 2, 'com.framework.testcases.TC_001_ValidateWebServiceOfMethods')
+data.setCell(4, 3, 3269);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_001_ValidateWebServiceOfMethods</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(ja...)</span>
+                <span class="method-start">10364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10962 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)</span>
+                <span class="method-start">10963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(ja...)</span>
+                <span class="method-start">14237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">14441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME...)</span>
+                <span class="method-start">14442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(ja...)</span>
+                <span class="method-start">20716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">20885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checks_APIs({RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME...)</span>
+                <span class="method-start">20886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(ja...)</span>
+                <span class="method-start">26153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">26302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checks_APIs({RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESP...)</span>
+                <span class="method-start">26303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest([TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(ja...)</span>
+                <span class="method-start">29725 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">29875 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38924" started-at="2020-07-02T08:57:10Z" finished-at="2020-07-02T08:57:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38924" started-at="2020-07-02T08:57:10Z" finished-at="2020-07-02T08:57:49Z">
+      <class name="com.framework.testcases.TC_001_ValidateWebServiceOfMethods">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2020-07-02T14:27:10Z" finished-at="2020-07-02T14:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="checks_APIs" duration-ms="10344" started-at="2020-07-02T14:27:10Z" data-provider="getData" finished-at="2020-07-02T14:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Michael, HTTPMETHODS=GET, RESPONSE BODY={
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+        }
+    ],
+    "ad": {
+        "company": "StatusCode Weekly",
+        "url": "http://statuscode.org/",
+        "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+    }
+}, URL=https://reqres.in/api/users?page=2, PATH=data[0].first_name, PAGES=LIST USERS}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checks_APIs -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="endTest" is-config="true" duration-ms="598" started-at="2020-07-02T14:27:21Z" finished-at="2020-07-02T14:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-02T14:27:21Z" finished-at="2020-07-02T14:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="checks_APIs" duration-ms="3269" started-at="2020-07-02T14:27:21Z" data-provider="getData" finished-at="2020-07-02T14:27:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Janet, HTTPMETHODS=GET, RESPONSE BODY={
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+    },
+    "ad": {
+        "company": "StatusCode Weekly",
+        "url": "http://statuscode.org/",
+        "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+    }
+}, URL=https://reqres.in/api/users/2, PATH=data.first_name, PAGES=SINGLE USER}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checks_APIs -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="endTest" is-config="true" duration-ms="204" started-at="2020-07-02T14:27:24Z" finished-at="2020-07-02T14:27:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-02T14:27:25Z" finished-at="2020-07-02T14:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="checks_APIs" duration-ms="6271" started-at="2020-07-02T14:27:25Z" data-provider="getData" finished-at="2020-07-02T14:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    "name": "morpheus",
+    "job": "leader"
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=POST, RESPONSE BODY=, URL=https://reqres.in/api/users, PATH=name, PAGES=CREATE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checks_APIs -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="endTest" is-config="true" duration-ms="169" started-at="2020-07-02T14:27:31Z" finished-at="2020-07-02T14:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-02T14:27:31Z" finished-at="2020-07-02T14:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="checks_APIs" duration-ms="5264" started-at="2020-07-02T14:27:31Z" data-provider="getData" finished-at="2020-07-02T14:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    "name": "morpheus",
+    "job": "zion resident"
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=PUT, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=name, PAGES=UPDATE USER}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checks_APIs -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="endTest" is-config="true" duration-ms="149" started-at="2020-07-02T14:27:36Z" finished-at="2020-07-02T14:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-02T14:27:37Z" finished-at="2020-07-02T14:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="checks_APIs" duration-ms="3419" started-at="2020-07-02T14:27:37Z" data-provider="getData" finished-at="2020-07-02T14:27:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=, HTTPMETHODS=DELETE, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=, PAGES=UPDATE PARTICULAR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checks_APIs -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="endTest" is-config="true" duration-ms="149" started-at="2020-07-02T14:27:40Z" finished-at="2020-07-02T14:27:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checks_APIs status=SUCCESS method=TC_001_ValidateWebServiceOfMethods.checks_APIs(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4]" name="afterClass" is-config="true" duration-ms="8959" started-at="2020-07-02T14:27:40Z" finished-at="2020-07-02T14:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.framework.testcases.TC_001_ValidateWebServiceOfMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

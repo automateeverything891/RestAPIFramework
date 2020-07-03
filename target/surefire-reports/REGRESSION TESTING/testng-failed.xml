@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [REGRESSION TESTING]">
+  <test name="API TESTING(failed)">
+    <classes>
+      <class name="com.framework.testcases.TC_001_ValidateWebServiceMethods">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="checks_APIs" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.framework.testcases.TC_001_ValidateWebServiceMethods -->
+    </classes>
+  </test> <!-- API TESTING(failed) -->
+</suite> <!-- Failed suite [REGRESSION TESTING] -->

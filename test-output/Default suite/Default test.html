@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 02 14:27:10 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38924 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.framework.testcases.TC_001_ValidateWebServiceOfMethods.checks_APIs()'><b>checks_APIs</b><br>Test class: com.framework.testcases.TC_001_ValidateWebServiceOfMethods<br>Parameters: {RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Michael, HTTPMETHODS=GET, RESPONSE BODY={
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"
+        }
+    ],
+    "ad": {
+        "company": "StatusCode Weekly",
+        "url": "http://statuscode.org/",
+        "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+    }
+}, URL=https://reqres.in/api/users?page=2, PATH=data[0].first_name, PAGES=LIST USERS}</td>
+<td></td>
+<td>10</td>
+<td>com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4</td></tr>
+<tr>
+<td title='com.framework.testcases.TC_001_ValidateWebServiceOfMethods.checks_APIs()'><b>checks_APIs</b><br>Test class: com.framework.testcases.TC_001_ValidateWebServiceOfMethods<br>Parameters: {RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Janet, HTTPMETHODS=GET, RESPONSE BODY={
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+    },
+    "ad": {
+        "company": "StatusCode Weekly",
+        "url": "http://statuscode.org/",
+        "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+    }
+}, URL=https://reqres.in/api/users/2, PATH=data.first_name, PAGES=SINGLE USER}</td>
+<td></td>
+<td>3</td>
+<td>com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4</td></tr>
+<tr>
+<td title='com.framework.testcases.TC_001_ValidateWebServiceOfMethods.checks_APIs()'><b>checks_APIs</b><br>Test class: com.framework.testcases.TC_001_ValidateWebServiceOfMethods<br>Parameters: {RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    "name": "morpheus",
+    "job": "leader"
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=POST, RESPONSE BODY=, URL=https://reqres.in/api/users, PATH=name, PAGES=CREATE}</td>
+<td></td>
+<td>6</td>
+<td>com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4</td></tr>
+<tr>
+<td title='com.framework.testcases.TC_001_ValidateWebServiceOfMethods.checks_APIs()'><b>checks_APIs</b><br>Test class: com.framework.testcases.TC_001_ValidateWebServiceOfMethods<br>Parameters: {RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    "name": "morpheus",
+    "job": "zion resident"
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=PUT, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=name, PAGES=UPDATE USER}</td>
+<td></td>
+<td>5</td>
+<td>com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4</td></tr>
+<tr>
+<td title='com.framework.testcases.TC_001_ValidateWebServiceOfMethods.checks_APIs()'><b>checks_APIs</b><br>Test class: com.framework.testcases.TC_001_ValidateWebServiceOfMethods<br>Parameters: {RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=, HTTPMETHODS=DELETE, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=, PAGES=UPDATE PARTICULAR}</td>
+<td></td>
+<td>3</td>
+<td>com.framework.testcases.TC_001_ValidateWebServiceOfMethods@3b0090a4</td></tr>
+</table><p>
+</body>
+</html>

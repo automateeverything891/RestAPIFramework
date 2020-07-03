@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 12.301 sec <<< FAILURE! - in TestSuite
+checks_APIs(com.framework.testcases.TC_001_ValidateWebServiceMethods)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.framework.testcases.TC_001_ValidateWebServiceMethods.checks_APIs(TC_001_ValidateWebServiceMethods.java:54)
+
+checks_APIs(com.framework.testcases.TC_001_ValidateWebServiceMethods)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.framework.testcases.TC_001_ValidateWebServiceMethods.checks_APIs(TC_001_ValidateWebServiceMethods.java:54)
+

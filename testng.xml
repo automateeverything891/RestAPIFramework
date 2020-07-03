@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="REGRESSION TESTING">
+  <test thread-count="5" name="API TESTING">
+    <classes>
+      <class name="com.framework.testcases.TC_001_ValidateWebServiceMethods"/>
+    </classes>
+  </test> <!-- API TESTING -->
+</suite> <!-- REGRESSION TESTING -->

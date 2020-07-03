@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">38,924</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.framework.testcases.TC_001_ValidateWebServiceOfMethods</td><td><a href="#m0">checks_APIs</a></td><td rowspan="5">1593680245177</td><td rowspan="5">6271</td></tr><tr class="passedeven"><td><a href="#m1">checks_APIs</a></td></tr><tr class="passedeven"><td><a href="#m2">checks_APIs</a></td></tr><tr class="passedeven"><td><a href="#m3">checks_APIs</a></td></tr><tr class="passedeven"><td><a href="#m4">checks_APIs</a></td></tr></tbody></table><h2>Default test</h2><h3 id="m0">com.framework.testcases.TC_001_ValidateWebServiceOfMethods#checks_APIs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=201, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;leader&quot;
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=POST, RESPONSE BODY=, URL=https://reqres.in/api/users, PATH=name, PAGES=CREATE}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.framework.testcases.TC_001_ValidateWebServiceOfMethods#checks_APIs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Janet, HTTPMETHODS=GET, RESPONSE BODY={
+    &quot;data&quot;: {
+        &quot;id&quot;: 2,
+        &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,
+        &quot;first_name&quot;: &quot;Janet&quot;,
+        &quot;last_name&quot;: &quot;Weaver&quot;,
+        &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg&quot;
+    },
+    &quot;ad&quot;: {
+        &quot;company&quot;: &quot;StatusCode Weekly&quot;,
+        &quot;url&quot;: &quot;http://statuscode.org/&quot;,
+        &quot;text&quot;: &quot;A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.&quot;
+    }
+}, URL=https://reqres.in/api/users/2, PATH=data.first_name, PAGES=SINGLE USER}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.framework.testcases.TC_001_ValidateWebServiceOfMethods#checks_APIs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY={
+    &quot;name&quot;: &quot;morpheus&quot;,
+    &quot;job&quot;: &quot;zion resident&quot;
+}, RESPONSE FIELD VALUE=morpheus, HTTPMETHODS=PUT, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=name, PAGES=UPDATE USER}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.framework.testcases.TC_001_ValidateWebServiceOfMethods#checks_APIs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{RESPONSE HEADER=, RESPONSE STATUS CODE=204, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=, HTTPMETHODS=DELETE, RESPONSE BODY=, URL=https://reqres.in/api/users/2, PATH=, PAGES=UPDATE PARTICULAR}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.framework.testcases.TC_001_ValidateWebServiceOfMethods#checks_APIs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{RESPONSE HEADER=application/json; charset=utf-8, RESPONSE STATUS CODE=200, RUNMODE=Y, RESPONSE TIME=4000, STATUS=PASS, BODY=, RESPONSE FIELD VALUE=Michael, HTTPMETHODS=GET, RESPONSE BODY={
+    &quot;page&quot;: 2,
+    &quot;per_page&quot;: 6,
+    &quot;total&quot;: 12,
+    &quot;total_pages&quot;: 2,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 7,
+            &quot;email&quot;: &quot;michael.lawson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Michael&quot;,
+            &quot;last_name&quot;: &quot;Lawson&quot;,
+            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;email&quot;: &quot;lindsay.ferguson@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Lindsay&quot;,
+            &quot;last_name&quot;: &quot;Ferguson&quot;,
+            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 9,
+            &quot;email&quot;: &quot;tobias.funke@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Tobias&quot;,
+            &quot;last_name&quot;: &quot;Funke&quot;,
+            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 10,
+            &quot;email&quot;: &quot;byron.fields@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Byron&quot;,
+            &quot;last_name&quot;: &quot;Fields&quot;,
+            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 11,
+            &quot;email&quot;: &quot;george.edwards@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;George&quot;,
+            &quot;last_name&quot;: &quot;Edwards&quot;,
+            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg&quot;
+        },
+        {
+            &quot;id&quot;: 12,
+            &quot;email&quot;: &quot;rachel.howell@reqres.in&quot;,
+            &quot;first_name&quot;: &quot;Rachel&quot;,
+            &quot;last_name&quot;: &quot;Howell&quot;,
+            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg&quot;
+        }
+    ],
+    &quot;ad&quot;: {
+        &quot;company&quot;: &quot;StatusCode Weekly&quot;,
+        &quot;url&quot;: &quot;http://statuscode.org/&quot;,
+        &quot;text&quot;: &quot;A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.&quot;
+    }
+}, URL=https://reqres.in/api/users?page=2, PATH=data[0].first_name, PAGES=LIST USERS}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
